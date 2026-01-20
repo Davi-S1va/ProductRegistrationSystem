@@ -1,0 +1,25 @@
+package entities;
+
+import java.util.Date;
+
+public class UsedProduct extends Product{
+	private Date manuefactureDate;
+
+	public UsedProduct(String name, Double price, Date manuefactureDate) {
+		super(name, price);
+		this.manuefactureDate = manuefactureDate;
+	}
+
+	public Date getManuefactureDate() {
+		return manuefactureDate;
+	}
+
+	public void setManuefactureDate(Date manuefactureDate) {
+		this.manuefactureDate = manuefactureDate;
+	}
+	
+	
+	
+	
+	
+}
